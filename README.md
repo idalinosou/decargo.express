@@ -48,9 +48,12 @@ decargo-express/
     ├── css/style.css
     ├── js/main.js
     └── img/
-        ├── favicon.svg
+        ├── favicon-32.png
+        ├── favicon-32-dark.png
+        ├── apple-touch-icon.png
         ├── logo-light.png
         ├── logo.webp
+        ├── mini icon.png
         ├── og-decargo.png
         ├── trafego-loop.mp4
         ├── trafego.mp4
