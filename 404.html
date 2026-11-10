@@ -9,8 +9,9 @@
   <meta name="theme-color" content="#06131d">
   <script>
     (function () {
+      if (!/\.github\.io$/i.test(location.hostname)) return;
       var base = document.createElement("base");
-      base.href = /\.github\.io$/i.test(location.hostname) ? "/decargo.express/" : "/";
+      base.href = location.pathname.split("/").slice(0, 2).join("/") + "/";
       document.head.appendChild(base);
     })();
   </script>
