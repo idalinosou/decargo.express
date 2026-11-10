@@ -7,6 +7,13 @@
   <meta name="description" content="A página que você procura não existe ou mudou de endereço. Volte ao início ou fale com o time da Decargo Express.">
   <meta name="robots" content="noindex">
   <meta name="theme-color" content="#06131d">
+  <script>
+    (function () {
+      var base = document.createElement("base");
+      base.href = /\.github\.io$/i.test(location.hostname) ? "/decargo.express/" : "/";
+      document.head.appendChild(base);
+    })();
+  </script>
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 
   <link rel="preload" href="assets/css/style.css" as="style">

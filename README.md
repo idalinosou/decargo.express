@@ -2,6 +2,8 @@
 
 Reconstrução completa do site da Decargo Express como projeto estático, sem dependências externas, CMS ou build. Basta abrir `index.html` no navegador.
 
+Publicado no GitHub Pages: https://idalinosou.github.io/decargo.express/
+
 ## Como visualizar
 
 - Dê duplo clique em `abrir-site.bat` (Windows), ou
